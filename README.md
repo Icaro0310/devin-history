@@ -1,5 +1,32 @@
 <div align="center">
 
+# devin-history — MOVED
+
+**This repository was absorbed into the
+[`devin-explore`](https://github.com/Icaro0310/devin-explore) monorepo.**
+
+The code now lives at `packages/history/` and the CLI is unchanged:
+`pip install devin-history` / `uv tool install devin-history` still
+installs the same package, now released from devin-explore.
+
+```bash
+# development moved
+git clone https://github.com/Icaro0310/devin-explore
+cd devin-explore/packages/history
+```
+
+The repository is archived; open issues and PRs belong to devin-explore.
+History remains readable here for reference.
+
+</div>
+
+---
+
+<details>
+<summary>Original README (pre-archive)</summary>
+
+<div align="center">
+
 <img src="assets/banner.svg" alt="devin-history" width="100%"/>
 
 <a href="https://github.com/Icaro0310/devin-history/actions/workflows/tests.yml"><img src="https://github.com/Icaro0310/devin-history/actions/workflows/tests.yml/badge.svg" alt="tests"/></a>
@@ -243,3 +270,5 @@ silently misparsing your history.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+</details>
